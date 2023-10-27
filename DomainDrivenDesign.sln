@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TacticalPattern", "TacticalPattern", "{9A915C4A-19AB-4A02-9CE4-D2F120FCD834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StrategicPattern", "StrategicPattern", "{39DA6B2A-12D0-4C60-A044-5B4C318C86C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesign.TacticalPattern.Entity", "DomainDrivenDesign.TacticalPattern.Entity\DomainDrivenDesign.TacticalPattern.Entity.csproj", "{172766B7-BE6F-4F18-84E7-D559EBDECBA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172766B7-BE6F-4F18-84E7-D559EBDECBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172766B7-BE6F-4F18-84E7-D559EBDECBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172766B7-BE6F-4F18-84E7-D559EBDECBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172766B7-BE6F-4F18-84E7-D559EBDECBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{172766B7-BE6F-4F18-84E7-D559EBDECBA7} = {9A915C4A-19AB-4A02-9CE4-D2F120FCD834}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65F9D4F6-7B8B-4C6C-A663-BA1E032FE7A4}
+	EndGlobalSection
+EndGlobal
