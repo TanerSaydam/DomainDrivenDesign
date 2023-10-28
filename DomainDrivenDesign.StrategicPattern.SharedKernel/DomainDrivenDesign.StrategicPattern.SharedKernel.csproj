@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="BoundedContexts\Inventory\Domain\" />
+    <Folder Include="BoundedContexts\Inventory\Application\" />
+    <Folder Include="BoundedContexts\Inventory\Infrastructure\" />
+    <Folder Include="BoundedContexts\Sales\Domain\" />
+    <Folder Include="BoundedContexts\Sales\Application\" />
+    <Folder Include="BoundedContexts\Sales\Infrastructure\" />
+    <Folder Include="SharedKernel\Application\Services\" />
+    <Folder Include="SharedKernel\Domain\Entities\" />
+    <Folder Include="SharedKernel\Domain\Interfaces\" />
+    <Folder Include="SharedKernel\Domain\ValueObjects\" />
+    <Folder Include="SharedKernel\Infrastructure\Repositories\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="EcommerceBoundedContext\Core\Interfaces\" />
+    <Folder Include="EcommerceBoundedContext\Core\Enums\" />
+    <Folder Include="EcommerceBoundedContext\SubDomains\CustomerManagement\Repositories\" />
+    <Folder Include="EcommerceBoundedContext\SubDomains\CustomerManagement\Services\" />
+    <Folder Include="EcommerceBoundedContext\SubDomains\InventoryManagement\Repositories\" />
+    <Folder Include="EcommerceBoundedContext\SubDomains\InventoryManagement\Services\" />
+    <Folder Include="EcommerceBoundedContext\SubDomains\OrderManagement\Repositories\" />
+    <Folder Include="EcommerceBoundedContext\SubDomains\OrderManagement\Services\" />
+  </ItemGroup>
+
+</Project>
