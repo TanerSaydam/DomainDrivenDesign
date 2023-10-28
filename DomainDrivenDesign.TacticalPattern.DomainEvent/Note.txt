@@ -1,0 +1,18 @@
+﻿Domain-Driven Design (DDD) yaklaşımında Domain Event (Alan Olayı), bir domain'de (uygulama iş mantığı) önemli bir şeyin meydana geldiğini belirten bir durumdur. 
+Örneğin, bir e-ticaret uygulamasında bir siparişin tamamlanması, bir Domain Event olabilir. 
+Domain Event'ler genellikle domain'in durumunu değiştirirler veya başka bir servis veya katmanda bir işlemin tetiklenmesi için bir sinyal görevi görürler.
+
+Domain Event'ler, sistemde oluşan değişiklikleri izlemek, mikroservisler arasında iletişim kurmak veya iş işlemlerini kolaylaştırmak için kullanılabilir.
+
+Örnek:
+public class OrderCompleted : IDomainEvent
+{
+    public OrderCompleted(Guid orderId, DateTime occurredOn)
+    {
+        OrderId = orderId;
+        OccurredOn = occurredOn;
+    }
+    
+    public Guid OrderId { get; }
+    public DateTime OccurredOn { get; }
+}

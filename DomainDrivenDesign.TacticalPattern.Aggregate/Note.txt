@@ -1,0 +1,5 @@
+DDD (Domain-Driven Design) içinde Aggregate, iþ kurallarýný ve iþ mantýðýný modelleyen bir tasarým desenidir. 
+Aggregate, bir grup birbirine baðlý nesnenin bir araya getirilmesiyle oluþur ve bu nesneler bir aggregate root ile temsil edilir. 
+Aggregate root, tüm iþ kurallarýný ve davranýþlarý kapsar. 
+Aggregate'ler veri bütünlüðü ve iþ mantýðý için oldukça önemlidir. 
+Ayrýca, herhangi bir iþlem sýrasýnda yalnýzca bir Aggregate güncellenir, bu da tutarlýlýðý saðlar.
